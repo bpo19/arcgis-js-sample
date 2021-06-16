@@ -7,6 +7,7 @@ Esri loader (latest) and  Angular 12 is used instead of the [@arcgis/core](https
 ## Known issues
 
 `Unhandled Promise Rejection` console errors from the `WebMap` object are thrown when starting the map, and from `SceneView` when panning or changing the zoom level.
+The errors appear starting in ArcGIS JS API Version `4.18`, previous versions work without the errors.
 
 ## Get Started
 
