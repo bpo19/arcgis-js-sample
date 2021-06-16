@@ -19,7 +19,7 @@ export class AppComponent implements OnInit, OnDestroy {
   @ViewChild('mapViewNode', { static: true }) private mapViewEl: ElementRef;
 
   async initializeMap(): Promise<any> {
-    setDefaultOptions({ version: '4.17' });
+    setDefaultOptions({ version: '4.19' });
 
     const [WebMap, SceneView] = await loadModules([
       'esri/WebMap',
